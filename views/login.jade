@@ -1,0 +1,15 @@
+extends ./layout.jade
+block Content
+	form(action="/users",method="POST" ,class="container col-md-6 ")
+		div.form-group
+			label(for="email") Email
+			input(type="text" name="email" id="email" class="form-control" placeholder="Video 12 fue el ultimo")
+		div.form-group
+			label(for="pass") Password
+			input(type="Password" name="pass" id="pass" class="form-control")
+		div.form-group
+			input.btn.btn-success(type="submit")
+			
+		
+			
+			
